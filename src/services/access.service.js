@@ -104,7 +104,7 @@ class AccessService {
             password,
             foundShop.password
         );
-        if (!matchPassword) throw OK("Mật Khẩu Không Chính Xác !");
+        if (!matchPassword) throw new OK("Mật Khẩu Không Chính Xác !");
         //! Create tokens
         const publicKey = genatorPublicKey();
         const privateKey = genatorPrivatelicKey();

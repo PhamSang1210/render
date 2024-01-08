@@ -5,9 +5,11 @@ import helmet from "helmet";
 import compression from "compression";
 import morgan from "morgan";
 import instanceDB from "./database/init.mongodb.js";
+import cors from "cors";
 import route from "./routes/index.js";
 
 // middleware
+app.use(cors());
 app.use(helmet());
 app.use(compression());
 app.use(json());

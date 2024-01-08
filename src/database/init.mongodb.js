@@ -3,9 +3,9 @@ import mongoose from "mongoose";
 
 const DEV = false;
 // Local
-const connectString = `mongodb://localhost:27017/Becomerce`;
+// const connectString = `mongodb://localhost:27017/Becomerce`;
 // Cloud
-// const connectString = `mongodb+srv://minhnghi:minhnghi1210@jwtauth.reonhc8.mongodb.net/?retryWrites=true&w=majority`;
+const connectString = `mongodb+srv://minhnghi:minhnghi1210@jwtauth.reonhc8.mongodb.net/?retryWrites=true&w=majority`;
 
 class Database {
     constructor() {

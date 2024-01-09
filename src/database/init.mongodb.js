@@ -23,7 +23,7 @@ class Database {
             mongoose.set("debug", { color: true });
         }
         try {
-            await mongoose.connect(stringConenct.local);
+            await mongoose.connect(stringConenct.cloud);
             if (stringConenct.cloud) {
                 console.log("CONNECT SUCCESS LOCAL <3");
             }

@@ -49,6 +49,6 @@ const electronicSchema = new Schema(
 
 const product = model(DOCCUMENT_NAME, productShema);
 const electronic = model("Electronics", productShema);
-const clothing = model("Closthing", electronicSchema);
+const clothing = model("Closthing", clothingSchema);
 
 export { product, electronic, clothing };

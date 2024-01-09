@@ -13,7 +13,6 @@ import {
     genatorPrivatelicKey,
     genatorPublicKey,
 } from "../utils/genatorKey.utils.js";
-import keyTokenModel from "../model/keyToken.model.js";
 import ShopService from "./shop.service.js";
 
 class AccessService {
